@@ -21,16 +21,18 @@ body * {
     margin: 67px;
     background-color: #020617;
     opacity: 0.9;
-    border-radius: 4%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
 
 }
 
-#conteudo {
+#content {
     text-align: center;
     margin: 60px 267px 204px;
 }
 
-#conteudo p {
+#content p {
     font-size: 32px;
     margin-top: 24px;
 }
@@ -66,27 +68,36 @@ ul li a {
 
 }
 
-.gerador {
+hr {
+    display: flex;
+    border-color: #334155;
+    margin-top: 40px;
+    align-items: center;
+    width: 100%vw;
+    margin-bottom: 40px;
+}
+
+.generator {
     display: flex;
     align-items: center;
 }
 
-.gerador .link-texto {
+.generator .link-text {
     margin-left: 24px;
     margin-right: 260px;
 }
 
-.gerador .link-texto2 {
+.generator .link-text2 {
     margin-left: 24px;
     margin-right: 295px;
 }
   
-.gerador .link-texto3 {
+.generator .link-text3 {
     margin-left: 24px;
     margin-right: 285px;
 }
 
-.gerador .link-texto4 {
+.generator .link-text4 {
     margin-left: 24px;
     margin-right: 195px;
 }
@@ -102,8 +113,15 @@ height: 64px;
 border: 1px solid #334155;
 background-image: url(./assets/PlusCircle.svg);
 background-repeat: no-repeat;
-background-position: left center;
+background-position: 16px;
+font-family: 'IBM Plex Sans', sans-serif;
+padding-left: 64px;
 
+
+}
+
+.input-with-svg::placeholder {
+    color: #F8FAFC;;
 }
 
 .input-with-svg {
@@ -122,6 +140,6 @@ background-position: left center;
   
   .input-with-svg svg {
     width: 64px;
-    height: 64px;
+    height: 64px
   }
   
